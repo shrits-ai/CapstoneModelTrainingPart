@@ -11,7 +11,7 @@ from transformers import (
 )
 from datasets import load_dataset
 import wandb
-from model_smol2 import CustomConfig, CustomLLM
+from model_smol import CustomConfig, CustomLLM
 
 # Configuration - Match exactly with your model specs
 CHECKPOINT_DIR = "./checkpoints"
